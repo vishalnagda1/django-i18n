@@ -109,7 +109,8 @@ LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
 
-USE_I18N = True
+USE_I18N = True  # This is for developers
+# USE_L10N = True  # It is for localization purposes. This is for translators
 
 USE_TZ = True
 
