@@ -13,3 +13,11 @@ uv run python manage.py migrate
 
 - To create a superuser
 uv run python manage.py createsuperuser
+
+- For Internationalization support, we need to install gettext.
+sudo apt-get install gettext
+
+- Create po file for translation
+uv run django-admin makemessages --all
+or
+uv run python manage.py makemessages --all
