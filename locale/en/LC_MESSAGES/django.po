@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 16:07+0530\n"
-"PO-Revision-Date: 2025-01-07 10:39+0000\n"
+"POT-Creation-Date: 2025-01-07 12:38+0000\n"
+"PO-Revision-Date: 2025-01-07 12:43+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,18 +19,38 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.1\n"
 
-#: core/models.py:6
+#: core/models.py:7
+msgid "name"
+msgstr "Name"
+
+#: core/models.py:11 core/models.py:20
+msgid "category"
+msgstr "Category"
+
+#: core/models.py:12
+msgid "categories"
+msgstr "Categories"
+
+#: core/models.py:23
 msgid "title"
 msgstr "Title"
 
-#: core/models.py:7
+#: core/models.py:24
 msgid "content"
 msgstr "Content"
 
-#: mysite/settings.py:118
+#: core/models.py:31
+msgid "post"
+msgstr "Post"
+
+#: core/models.py:32
+msgid "posts"
+msgstr "Posts"
+
+#: mysite/settings.py:119
 msgid "English"
 msgstr "English"
 
-#: mysite/settings.py:119
+#: mysite/settings.py:120
 msgid "Hindi"
 msgstr "Hindi"
