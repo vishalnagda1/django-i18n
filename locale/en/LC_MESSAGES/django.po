@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-07 12:56+0000\n"
-"PO-Revision-Date: 2025-01-07 12:43+0000\n"
+"PO-Revision-Date: 2025-01-07 12:57+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -57,8 +57,8 @@ msgstr "Hindi"
 
 #: templates/index.html:6
 msgid "welcome-title"
-msgstr ""
+msgstr "Welcome to the Blog!"
 
 #: templates/index.html:7
 msgid "welcome-line"
-msgstr ""
+msgstr "This is a simple blog using Django and Bootstrap."
