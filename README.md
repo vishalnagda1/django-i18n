@@ -5,3 +5,8 @@ uv run django-admin startproject mysite .
 uv run python manage.py migrate
 uv run python manage.py runserver
 uv run manage.py startapp core
+
+- To make migrations for the app
+uv run python manage.py makemigrations
+- After creating the migration, we need to migrate the migration
+uv run python manage.py migrate
