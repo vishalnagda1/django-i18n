@@ -21,3 +21,6 @@ sudo apt-get install gettext
 uv run django-admin makemessages --all
 or
 uv run python manage.py makemessages --all
+
+- To compile po files to make mo files
+uv run python manage.py compilemessages
