@@ -32,3 +32,5 @@ uv add django-rosetta
 
 - To translating our model we use library called django-parler
 uv add django-parler
+
+- add django-parler to project settings in installed apps
