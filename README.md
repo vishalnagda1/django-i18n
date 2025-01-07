@@ -29,3 +29,6 @@ uv run python manage.py compilemessages
 uv add django-rosetta
 
 - add django-rosetta to project settings in installed apps
+
+- To translating our model we use library called django-parler
+uv add django-parler
