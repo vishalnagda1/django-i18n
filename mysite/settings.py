@@ -120,6 +120,17 @@ LANGUAGES = [
     ("hi", _("Hindi")),
 ]
 
+PARLER_LANGUAGES = {
+    None: (
+        {"code": "en"},
+        {"code": "hi"}
+    ),
+    "default": {
+        "fallbacks": ["en"],
+        "hide_untranslated": False,
+    },
+}
+
 TIME_ZONE = "UTC"
 
 USE_I18N = True  # This is for developers
