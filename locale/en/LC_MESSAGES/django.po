@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: mysite/settings.py:113
 msgid "English"
-msgstr ""
+msgstr "english"
 
 #: mysite/settings.py:114
 msgid "Hindi"
-msgstr ""
+msgstr "hindi"
