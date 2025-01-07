@@ -3,6 +3,18 @@ from django.utils.translation import gettext_lazy as _
 from parler.models import TranslatableModel, TranslatedFields
 
 
+class Category(TranslatableModel):
+    translations = TranslatedFields(name=models.CharField(_("name"), max_length=100))
+    created = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = _("category")
+        verbose_name_plural = _("categories")
+
+    def __str__(self):
+        return self.name
+
+
 class Post(TranslatableModel):
     translations = TranslatedFields(
         title=models.CharField(_("title"), max_length=200),
