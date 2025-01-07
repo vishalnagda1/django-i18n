@@ -34,3 +34,7 @@ uv add django-rosetta
 uv add django-parler
 
 - add django-parler to project settings in installed apps
+
+Note: Once you update your app models to make them translatable using django-parler. Then you have to create a migration. If you try to migrate with that migration then you will get an error in the console - `raise TypeError(
+        f"Translatable model {shared_model} does not appear to inherit from TranslatableModel"
+    )`. To fix it you need to select your migration file and update the bases. You need to change from `bases=(parler.models.TranslatedFieldsModelMixin, models.Model)` to `bases=(parler.models.TranslatableModel, models.Model)`. Now try to migrate again.
