@@ -28,6 +28,8 @@ class Post(TranslatableModel):
 
     class Meta:
         ordering = ("-created",)
+        verbose_name = _("post")
+        verbose_name_plural = _("posts")
 
     def __str__(self):
         return self.title
