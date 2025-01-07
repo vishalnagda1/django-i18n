@@ -24,3 +24,8 @@ uv run python manage.py makemessages --all
 
 - To compile po files to make mo files
 uv run python manage.py compilemessages
+
+- To edit the po file we need django-rosetta library
+uv add django-rosetta
+
+- add django-rosetta to project settings in installed apps
