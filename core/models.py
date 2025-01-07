@@ -16,6 +16,9 @@ class Category(TranslatableModel):
 
 
 class Post(TranslatableModel):
+    category = models.ForeignKey(
+        Category, related_name=_("category"), on_delete=models.SET_NULL, null=True
+    )
     translations = TranslatedFields(
         title=models.CharField(_("title"), max_length=200),
         content=models.TextField(_("content")),
