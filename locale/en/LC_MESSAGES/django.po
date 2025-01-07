@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 13:48+0000\n"
-"PO-Revision-Date: 2025-01-07 13:48+0000\n"
+"POT-Creation-Date: 2025-01-07 14:23+0000\n"
+"PO-Revision-Date: 2025-01-07 14:26+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -47,6 +47,14 @@ msgstr "Post"
 msgid "posts"
 msgstr "Posts"
 
+#: core/views.py:9
+msgid "login-auth-message"
+msgstr "Hi, welcome!"
+
+#: core/views.py:12
+msgid "logout-auth-message"
+msgstr "You are not logged in!"
+
 #: mysite/settings.py:119
 msgid "English"
 msgstr "English"
@@ -55,15 +63,15 @@ msgstr "English"
 msgid "Hindi"
 msgstr "Hindi"
 
-#: templates/index.html:6
+#: templates/index.html:13
 msgid "welcome-title"
 msgstr "Welcome to the Blog!"
 
-#: templates/index.html:7
+#: templates/index.html:14
 msgid "welcome-line"
 msgstr "This is a simple blog using Django and Bootstrap."
 
-#: templates/index.html:14
+#: templates/index.html:21
 msgid "time-ago"
 msgstr "ago"
 
