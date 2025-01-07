@@ -1,9 +1,10 @@
 {% extends "base.html" %}
+{% load i18n %}
 
 {% block content %}
     <div class="container text-center">
-        <h1>Welcome to the Blog!</h1>
-        <p>This is a simple blog using Django and Bootstrap.</p>
+        <h1>{% trans 'welcome-title' %}</h1>
+        <p>{% trans 'welcome-line' %}</p>
     </div>
     <div class="container">
         {% for post in posts %}
