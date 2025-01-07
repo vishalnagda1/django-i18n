@@ -10,3 +10,6 @@ uv run manage.py startapp core
 uv run python manage.py makemigrations
 - After creating the migration, we need to migrate the migration
 uv run python manage.py migrate
+
+- To create a superuser
+uv run python manage.py createsuperuser
