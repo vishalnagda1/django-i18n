@@ -1,12 +1,19 @@
 from django.contrib import messages
 from django.shortcuts import render
 from django.utils.translation import gettext_lazy as _
+
 from .models import Post
 
 
 def index(request):
     if request.user.is_authenticated:
-        messages.success(request, _("login-auth-message {}").format(request.user.first_name), extra_tags="alert alert-success")
+        messages.success(
+            request,
+            _("login-auth-message {first} {last}").format(
+                first=request.user.first_name, last=request.user.last_name
+            ),
+            extra_tags="alert alert-success",
+        )
     else:
         messages.warning(
             request, _("logout-auth-message"), extra_tags="alert alert-danger"
