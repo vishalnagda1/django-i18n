@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 12:56+0000\n"
-"PO-Revision-Date: 2025-01-07 12:59+0000\n"
+"POT-Creation-Date: 2025-01-07 13:48+0000\n"
+"PO-Revision-Date: 2025-01-07 13:49+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -62,3 +62,19 @@ msgstr "ब्लॉग में आपका स्वागत है!"
 #: templates/index.html:7
 msgid "welcome-line"
 msgstr "यह जेंगो और बूटस्ट्रैप का उपयोग करने वाला एक सरल ब्लॉग है।"
+
+#: templates/index.html:14
+msgid "time-ago"
+msgstr "पूर्व"
+
+#: templates/navbar.html:5
+msgid "navbar"
+msgstr "नेवबार"
+
+#: templates/navbar.html:13
+msgid "navbar-home"
+msgstr "होम"
+
+#: templates/navbar.html:16
+msgid "navbar-features"
+msgstr "विशेषताएँ"
