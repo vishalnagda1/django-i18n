@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 14:34+0000\n"
-"PO-Revision-Date: 2025-01-07 14:35+0000\n"
+"POT-Creation-Date: 2025-01-07 14:38+0000\n"
+"PO-Revision-Date: 2025-01-07 14:39+0000\n"
 "Last-Translator: Vishal Nagda <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -47,12 +47,13 @@ msgstr "Post"
 msgid "posts"
 msgstr "Posts"
 
-#: core/views.py:9
-#| msgid "login-auth-message"
-msgid "login-auth-message {}"
-msgstr "Hi, welcome {}!"
-
 #: core/views.py:12
+#, python-brace-format
+#| msgid "login-auth-message {}"
+msgid "login-auth-message {first} {last}"
+msgstr "Hi, welcome {first} {last}!"
+
+#: core/views.py:19
 msgid "logout-auth-message"
 msgstr "You are not logged in!"
 
